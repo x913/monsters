@@ -113,7 +113,7 @@ const UIController = (function () {
                 if (cards[idx].opened) {
                     img.setAttribute('src', `img/${cards[idx].card}`);
                 } else {
-                    img.setAttribute('src', `img/door.svg`);
+                    img.setAttribute('src', 'img/door.svg');
                 }
             });
         }
