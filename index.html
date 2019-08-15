@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Monsters!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <style>
+      .card-content img {
+        min-height: 100px;
+        max-width: 100px;
+      }
+      .game-end,
+      .game-end-win,
+      .game-end-loose {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>Monsters!</h1>
+
+    <p>Click on a door to find your monster friends. Avoid the sock!</p>
+
+    <div id="app">Loading...</div> -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center-align">
+          <h5>Click on a door to find your monster friends. Avoid the sock!</h5>
+        </div>
+      </div>
+      <!-- ROW 1 -->
+      <div class="row">
+        <!-- CARD 1 -->
+        <div class="col s3">
+          <div class="card" data-id="0">
+            <div class="card-content center-align">
+              <img src="img/door.svg" />
+            </div>
+          </div>
+        </div>
+        <!-- CARD 2 -->
+        <div class="col s3">
+          <div class="card" data-id="1">
+            <div class="card-content center-align">
+              <img src="img/door.svg" />
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col s3">
+          <div class="card" data-id="2">
+            <div class="card-content center-align">
+              <img src="img/door.svg" />
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="col s3">
+          <div class="card" data-id="3">
+            <div class="card-content center-align">
+              <img src="img/door.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ROW 2 -->
+      <div class="row">
+        <!-- CARD 1 -->
+        <div class="col s3">
+          <div class="card" data-id="4">
+            <div class="card-content center-align">
+              <img src="img/door.svg" />
+            </div>
+          </div>
+        </div>
+        <!-- CARD 2 -->
+        <div class="col s3">
+          <div class="card" data-id="5">
+            <div class="card-content center-align">
+              <img src="img/door.svg" />
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col s3">
+          <div class="card" data-id="6">
+            <div class="card-content center-align">
+              <img src="img/door.svg" />
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="col s3">
+          <div class="card" data-id="7">
+            <div class="card-content center-align">
+              <img src="img/door.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row game-end-loose">
+        <div class="col s12 center-align card-panel red lighten-2 black-text">
+          <h4>YOU LOOSE!</h4>
+        </div>
+      </div>
+      <div class="row game-end-win">
+        <div class="col s12 center-align card-panel teal lighten-2 black-text">
+          <h4>YOU WIN!</h4>
+        </div>
+      </div>
+      <div class="row game-end">
+        <div class="col s12 center-align">
+          <button id="play" class="btn purple pulse">PLAY AGAIN?</button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
