@@ -111,9 +111,9 @@ const UIController = (function () {
             UISelectors.cards.forEach((card, idx) => {
                 const img = card.children[0].children[0];
                 if (cards[idx].opened) {
-                    img.setAttribute('src', `/img/${cards[idx].card}`);
+                    img.setAttribute('src', `/monsters/img/${cards[idx].card}`);
                 } else {
-                    img.setAttribute('src', `/img/door.svg`);
+                    img.setAttribute('src', `/monsters/img/door.svg`);
                 }
             });
         }
